@@ -23,6 +23,7 @@ transaction.sender = 'newkevin@apecessories.com';
 console.log('Resulting sender:  ', moneyTransaction.sender);
 console.log('Resulting funds:  ', moneyTransaction.funds);
 console.log('Keys:  ', Object.keys(moneyTransaction));
+console.log('Object:  ', moneyTransaction);
 
 const check = Object.getPrototypeOf(moneyTransaction) === transaction;
 console.log('Prototype is transaction:  ', check);
